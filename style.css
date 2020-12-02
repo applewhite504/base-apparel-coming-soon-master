@@ -59,47 +59,50 @@ form {
     width: 70%;
     border-radius: 20px;
     height: 35px;
-    border-color: lightgray;
-    position: relative;  
-    color: red;
+    border-color: hsl(0, 80%, 86%);
+    /* position: relative;   */
 }
-
 
 .button {
     position: absolute;
     background: linear-gradient(to right, hsl(0, 80%, 86%) 0%,hsl(0, 74%, 74%) 100%);
-    /* height: 35px; */
+    height: 41px;
     border: none;
     border-radius: 20px;
     z-index: 4;
     color: hsl(0, 100%, 98%);
-    padding: 9px 25px;
+    padding: 12px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    /* margin: 4px 2px; */
+    margin: 0px 5px;
     cursor: pointer;
-    transform: translate(-45px)
-    
-  }
+    transform: translate(-48px);
+}
 
-.image img {
+.image {
     float: right;
     margin: 0 0 0 auto;
-    /* align-items: center;
-    justify-content: right; */
+    align-items: right; 
+    justify-content: right;
     width: 40%;
-    height: 100vh;
-
-}
+    height: 100vh;  
+}  
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }
+    height: 2.5rem;           
+}
 
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
 
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
